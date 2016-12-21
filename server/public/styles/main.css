@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+}
+
+.debateContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.affirmative, .negative {
+  width: 45%;
+  text-align: center;
+}
+
+.vs {
+  width: 10%;
+  text-align: center;
+}
+
+.proposition {
+  text-align: center;
+}
+
+.clockContainer {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

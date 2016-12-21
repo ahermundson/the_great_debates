@@ -37,7 +37,7 @@ class DebaterForm extends React.Component {
         <input type="text" value={this.state.affirmative} onChange={this.handleChange} />
       </label>
       <label>
-        Negative: 
+        Negative:
         <input type="text" value={this.state.negative} onChange={this.handleChangeNegative} />
       </label>
       <input type="submit" value="Submit" />
@@ -80,7 +80,7 @@ ReactDOM.render(
 
 
 
-let propositions = ["It would be worth it to be killed by Bigfoot.", "June is a better month than July.", "If you can't decide what to eat, just go to Subway", "Trees are cooler than fish.", "The Hamburglar Is One Of The Three Best Things About McDonald's", "The Constitution is dumb.", "The Masters is truly a tradition unlike any other.", "Keanu Reeves is a great actor."]
+let propositions = ["It would be worth it to be killed by Bigfoot.", "June is a better month than July.", "If you can't decide what to eat, just go to Subway", "Trees are cooler than fish.", "The Hamburglar Is One Of The Three Best Things About McDonald's", "The Constitution is dumb.", "The Masters is truly a tradition unlike any other.", "Keanu Reeves is a great actor.", "The stars of Friends could beat the stars of Seinfeld in a fight", "It's better to be a wizard than a knight", "The weatherman has the easiest job on a news team", "Life is a highway is a dumb metaphor", "Freshly cut grass is a top five smell"];
 
 function randomNumber(min, max){
     return Math.floor(Math.random() * (1 + max - min) + min);

@@ -28,3 +28,15 @@ h1 {
   display: flex;
   justify-content: center;
 }
+
+label {
+  margin: 15px;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  margin-left: 5px;
+}

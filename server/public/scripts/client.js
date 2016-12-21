@@ -33,11 +33,11 @@ class DebaterForm extends React.Component {
     let formDisplay =
     <form onSubmit={this.handleSubmit}>
       <label>
-        Name:
+        Affirmative:
         <input type="text" value={this.state.affirmative} onChange={this.handleChange} />
       </label>
       <label>
-        Negative:
+        Negative: 
         <input type="text" value={this.state.negative} onChange={this.handleChangeNegative} />
       </label>
       <input type="submit" value="Submit" />
